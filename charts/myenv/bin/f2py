@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/jonathan.sandoval/Library/CloudStorage/OneDrive-UniversidadEAFIT/J A S G/Estudio/cursos/Technology/(Platzi) back-end with python/pip_Python/codigo/py-project/charts/myenv/bin/python3.12" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from numpy.f2py.f2py2e import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
